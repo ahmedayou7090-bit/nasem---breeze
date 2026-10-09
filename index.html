@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نسيم الطبيعة لتنسيق الحدائق بالرياض | تصميم وتنفيذ</title>
+    <meta name="description" content="نحوّل المساحات الخارجية إلى حدائق عصرية تنبض بالحياة من خلال حلول متكاملة تشمل تنسيق الحدائق، تركيب العشب، شبكات الري، المظلات، الشلالات، والإضاءة الخارجية بالرياض.">
+    <meta name="keywords" content="تنسيق حدائق الرياض, شركة تنسيق حدائق بالرياض, تركيب عشب صناعي بالرياض, مظلات وبرجولات الرياض, شبكات ري بالرياض, شلالات ونوافير الرياض, صيانة حدائق بالرياض">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Leaflet CSS for Interactive Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-leaf text-gold"></i> نسيم <span>الطبيعة</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#projects">أعمالنا</a></li>
+                <li><a href="#location">موقعنا</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up">نسيم الطبيعة لتنسيق الحدائق بالرياض</h1>
+            <h2 class="fade-in-up delay-1">تصميم وتنفيذ الحدائق بأعلى معايير الجودة والاحترافية</h2>
+            <p class="fade-in-up delay-2">نحوّل المساحات الخارجية إلى حدائق عصرية تنبض بالحياة من خلال حلول متكاملة تشمل تنسيق الحدائق، تركيب العشب، شبكات الري، المظلات، الشلالات، والإضاءة الخارجية.</p>
+            <div class="cta-buttons fade-in-up delay-3">
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-calendar-check"></i> اطلب معاينة مجانية</a>
+                <a href="https://wa.me/966544629160" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> تواصل عبر واتساب</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content slide-in-right">
+                    <h2 class="section-title">من نحن</h2>
+                    <p class="lead">نسيم الطبيعة شركة متخصصة في تنسيق الحدائق وتصميم المساحات الخارجية بمدينة الرياض.</p>
+                    <p>نقدم حلولاً متكاملة لتحويل الحدائق المنزلية وحدائق الفلل والاستراحات إلى بيئات جمالية وعملية تجمع بين التصميم العصري والجودة العالية.</p>
+                    <p>نعتمد على فريق متخصص وخبرة ميدانية في تنفيذ مشاريع العشب الطبيعي والصناعي، أنظمة الري الحديثة، المظلات والبرجولات، الشلالات والنوافير، إضافة إلى خدمات الصيانة الدورية.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> فريق عمل متخصص ومحترف</li>
+                        <li><i class="fas fa-check-circle"></i> خبرة واسعة في السوق السعودي</li>
+                        <li><i class="fas fa-check-circle"></i> استخدام أفضل المواد والمعدات</li>
+                    </ul>
+                </div>
+                <div class="about-image slide-in-left">
+                    <img src="images/new-work-1.jpg" alt="شركة نسيم الطبيعة لتنسيق الحدائق" class="img-fluid rounded shadow-lg">
+                    <div class="experience-badge">
+                        <span class="number">+10</span>
+                        <span class="text">سنوات من الخبرة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">خدماتنا</h2>
+                <p>نقدم مجموعة شاملة من خدمات تنسيق الحدائق لتلبية كافة احتياجاتكم</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card zoom-in">
+                    <div class="icon"><i class="fas fa-tree"></i></div>
+                    <h3>تنسيق الحدائق</h3>
+                    <p>تصميم وتنفيذ حدائق منزلية وعامة بأفكار حديثة تناسب جميع المساحات.</p>
+                </div>
+                <div class="service-card zoom-in delay-1">
+                    <div class="icon"><i class="fas fa-leaf"></i></div>
+                    <h3>تركيب العشب</h3>
+                    <p>توريد وتركيب العشب الطبيعي والصناعي بأعلى معايير الجودة.</p>
+                </div>
+                <div class="service-card zoom-in delay-2">
+                    <div class="icon"><i class="fas fa-water"></i></div>
+                    <h3>شبكات الري</h3>
+                    <p>تنفيذ أنظمة ري حديثة توفر المياه وتحافظ على النباتات.</p>
+                </div>
+                <div class="service-card zoom-in delay-3">
+                    <div class="icon"><i class="fas fa-campground"></i></div>
+                    <h3>المظلات والبرجولات</h3>
+                    <p>تصميم وتنفيذ مظلات وبرجولات بأشكال عصرية تضيف قيمة جمالية للمكان.</p>
+                </div>
+                <div class="service-card zoom-in">
+                    <div class="icon"><i class="fas fa-water"></i></div>
+                    <h3>الشلالات والنوافير</h3>
+                    <p>تنفيذ الشلالات والنوافير بأحدث التصاميم.</p>
+                </div>
+                <div class="service-card zoom-in delay-1">
+                    <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>إضاءة الحدائق</h3>
+                    <p>حلول إضاءة احترافية لإبراز جمال الحدائق ليلاً.</p>
+                </div>
+                <div class="service-card zoom-in delay-2">
+                    <div class="icon"><i class="fas fa-seedling"></i></div>
+                    <h3>زراعة الأشجار والنخيل</h3>
+                    <p>اختيار وزراعة النباتات المناسبة للبيئة السعودية.</p>
+                </div>
+                <div class="service-card zoom-in delay-3">
+                    <div class="icon"><i class="fas fa-tools"></i></div>
+                    <h3>صيانة الحدائق</h3>
+                    <p>برامج صيانة دورية للحفاظ على الحدائق بأفضل حالة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">أعمالنا</h2>
+                <p>نماذج من مشاريعنا المنفذة بأعلى مستويات الجودة</p>
+            </div>
+            <div class="projects-grid">
+
+                <!-- New Projects from User -->
+                <div class="project-card fade-in-up">
+                    <div class="project-img">
+                        <img src="images/new-work-1.jpg" alt="مشروع تنسيق حدائق حديث">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>مشروع تنسيق حدائق حديث</h3>
+                        <p>تصميم وتنفيذ أحدث ديكورات الحدائق وتنسيق المساحات الخضراء.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-1">
+                    <div class="project-img">
+                        <img src="images/new-work-2.jpg" alt="مشروع تنسيق مميز">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>مشروع تنسيق مميز</h3>
+                        <p>أعمال تجميل وتنسيق للحدائق باستخدام أفضل المواد العصرية.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-2">
+                    <div class="project-img">
+                        <img src="images/new-work-3.jpg" alt="تصميم مساحات خارجية">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>تصميم مساحات خارجية</h3>
+                        <p>تنفيذ متكامل للحدائق الخارجية والجلسات الأنيقة.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-3">
+                    <div class="project-img">
+                        <img src="images/new-work-4.jpg" alt="تنسيق حديقة أنيقة">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>تنسيق حديقة أنيقة</h3>
+                        <p>ابتكار وتصميم مساحات خضراء تضفي لمسة جمالية.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-img">
+                        <img src="images/new-work-5.jpg" alt="عمل فني متكامل">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>عمل فني متكامل</h3>
+                        <p>تنفيذ احترافي لأعمال التشجير والتنسيق المتكامل.</p>
+                    </div>
+                </div>
+
+                <!-- أحدث الأعمال المضافة -->
+                <div class="project-card fade-in-up delay-1">
+                    <div class="project-img">
+                        <img src="images/new-work-6.jpg" alt="تنسيق حوض زراعي">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>تنسيق حوض زراعي</h3>
+                        <p>تنسيق حوض زراعي دائري مع زهور ملونة وعشب.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-2">
+                    <div class="project-img">
+                        <img src="images/new-work-7.jpg" alt="تنسيق حدائق بالحصى والأحجار">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>تنسيق بالحصى والأحجار</h3>
+                        <p>تصميم مميز باستخدام الحصى الملون والأحجار الديكورية مع نباتات زينة.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-3">
+                    <div class="project-img">
+                        <img src="images/new-work-8.jpg" alt="برجولة مودرن سوداء">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>برجولة مودرن سوداء</h3>
+                        <p>برجولة عصرية باللون الأسود مع جلسة مريحة وعشب صناعي.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-img">
+                        <img src="images/new-work-9.jpg" alt="برجولة سطح مع إضاءة مخفية">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>تنسيق جلسة السطح</h3>
+                        <p>تصميم جلسة للسطح مع برجولة وإضاءة مخفية (ليد) تضفي أجواء ساحرة.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-1">
+                    <div class="project-img">
+                        <img src="images/new-work-10.jpg" alt="تنسيق حدائق فلل">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view"><i class="fas fa-search"></i> عرض المشروع</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>تنسيق حدائق فلل</h3>
+                        <p>تنفيذ مسطحات خضراء واسعة للفلل مع أحواض زراعية أنيقة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us section-padding bg-dark text-white">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title text-white">لماذا تختار نسيم الطبيعة؟</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item zoom-in">
+                    <i class="fas fa-calendar-check"></i>
+                    <h4>معاينة مجانية</h4>
+                </div>
+                <div class="feature-item zoom-in delay-1">
+                    <i class="fas fa-drafting-compass"></i>
+                    <h4>تصميمات عصرية</h4>
+                </div>
+                <div class="feature-item zoom-in delay-2">
+                    <i class="fas fa-tags"></i>
+                    <h4>أسعار تنافسية</h4>
+                </div>
+                <div class="feature-item zoom-in delay-3">
+                    <i class="fas fa-user-tie"></i>
+                    <h4>تنفيذ احترافي</h4>
+                </div>
+                <div class="feature-item zoom-in delay-4">
+                    <i class="fas fa-clock"></i>
+                    <h4>التزام بالمواعيد</h4>
+                </div>
+                <div class="feature-item zoom-in delay-5">
+                    <i class="fas fa-gem"></i>
+                    <h4>مواد عالية الجودة</h4>
+                </div>
+                <div class="feature-item zoom-in delay-6">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h4>خدمة جميع أحياء الرياض</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">آراء العملاء</h2>
+                <p>نفخر بثقة عملائنا ونسعى دائماً لتقديم الأفضل</p>
+                <button id="openReviewModalBtn" class="btn btn-primary mt-4" style="margin-bottom: 20px;"><i class="fas fa-star"></i> أضف تقييمك</button>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card slide-in-right">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="quote">"تنفيذ أكثر من رائع والتزام كامل بالمواعيد."</p>
+                    <div class="client-info">
+                        <div class="client-avatar"><i class="fas fa-user"></i></div>
+                        <h4>عميل مميز</h4>
+                    </div>
+                </div>
+                <div class="testimonial-card slide-in-up">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="quote">"جودة العمل فاقت توقعاتنا."</p>
+                    <div class="client-info">
+                        <div class="client-avatar"><i class="fas fa-user"></i></div>
+                        <h4>عميل مميز</h4>
+                    </div>
+                </div>
+                <div class="testimonial-card slide-in-left">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="quote">"أفضل شركة تنسيق حدائق تعاملنا معها."</p>
+                    <div class="client-info">
+                        <div class="client-avatar"><i class="fas fa-user"></i></div>
+                        <h4>عميل مميز</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Service Areas Section -->
+    <section id="location" class="location-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">موقعنا ومناطق الخدمة</h2>
+                <p>مؤسسة نسيم الطبيعة لتنسيق الحدائق بالرياض - نصلكم أينما كنتم وتغطية شاملة لجميع الأحياء</p>
+            </div>
+
+            <!-- Location Info Cards -->
+            <div class="location-cards-grid fade-in-up delay-1">
+                <div class="location-card">
+                    <div class="location-card-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>مقر المؤسسة الرئيسي</h3>
+                    <p>الرياض - حي العليا - المملكة العربية السعودية</p>
+                    <span class="location-tag"><i class="fas fa-check-circle"></i> معاينات ميدانية يومية</span>
+                </div>
+                <div class="location-card">
+                    <div class="location-card-icon"><i class="fas fa-truck-moving"></i></div>
+                    <h3>تغطية الأحياء والمناطق</h3>
+                    <p>حي العليا وكافة أحياء شمال، شرق، غرب، جنوب ووسط الرياض</p>
+                    <span class="location-tag"><i class="fas fa-check-circle"></i> وصول سريع لفريق المعاينة</span>
+                </div>
+                <div class="location-card">
+                    <div class="location-card-icon"><i class="fas fa-clock"></i></div>
+                    <h3>أوقات العمل والمعاينة</h3>
+                    <p>السبت - الخميس: 8:00 ص - 10:00 م</p>
+                    <span class="location-tag"><i class="fas fa-star text-gold"></i> المعاينة والاستشارة مجاناً</span>
+                </div>
+            </div>
+
+            <!-- Interactive Map Block -->
+            <div class="map-wrapper-card fade-in-up delay-2 shadow-lg rounded">
+                <!-- Region Quick Filter Bar -->
+                <div class="map-region-header text-center">
+                    <h4 class="mb-3"><i class="fas fa-search-location text-gold"></i> حدد المنطقة لاستكشاف تغطية الخدمة في الرياض:</h4>
+                    <div class="areas-list" id="mapRegionFilter">
+                        <button class="area-badge active" data-region="all"><i class="fas fa-map-pin"></i> المقر الرئيسي (حي العليا)</button>
+                        <button class="area-badge" data-region="north"><i class="fas fa-compass"></i> شمال الرياض</button>
+                        <button class="area-badge" data-region="east"><i class="fas fa-compass"></i> شرق الرياض</button>
+                        <button class="area-badge" data-region="west"><i class="fas fa-compass"></i> غرب الرياض</button>
+                        <button class="area-badge" data-region="south"><i class="fas fa-compass"></i> جنوب الرياض</button>
+                        <button class="area-badge" data-region="central"><i class="fas fa-compass"></i> وسط الرياض (العليا)</button>
+                    </div>
+                </div>
+
+                <!-- Map View Switcher Controls -->
+                <div class="map-controls-bar">
+                    <div class="map-tabs">
+                        <button class="map-tab-btn active" id="btnTabLeaflet">
+                            <i class="fas fa-layer-group"></i> الخريطة التفاعلية (Leaflet)
+                        </button>
+                        <button class="map-tab-btn" id="btnTabGoogle">
+                            <i class="fab fa-google"></i> عرض Google Maps
+                        </button>
+                    </div>
+                    <div class="map-badge-status">
+                        <span class="status-dot"></span> موقع حي العليا موقّع ومباشر
+                    </div>
+                </div>
+
+                <!-- Map Canvas / Embed Containers -->
+                <div class="map-display-container">
+                    <div id="interactiveMap" class="map-view-box"></div>
+                    <div id="googleEmbedContainer" class="map-view-box" style="display: none;">
+                        <iframe id="googleMapIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28994.483984587!2d46.6713!3d24.6975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f033108865863%3A0x6a0c0e15b497746!2z2KfZhNi52YTYp9ihINin2YTYsdir2KfYtik!5e0!3m2!1sar!2s!4v1714488392110!5m2!1sar!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <!-- Action Toolbar below Map -->
+                <div class="map-action-bar">
+                    <a id="openGoogleMapsBtn" href="https://maps.google.com/?q=24.6975,46.6845" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i> فتح حي العليا في خرائط جوجل
+                    </a>
+                    <a id="getDirectionsBtn" href="https://www.google.com/maps/dir/?api=1&destination=24.6975,46.6845" target="_blank" class="btn btn-whatsapp">
+                        <i class="fas fa-directions"></i> احصل على الاتجاهات لحَي العليا
+                    </a>
+                    <button id="copyCoordsBtn" class="btn btn-copy-coords">
+                        <i class="fas fa-copy"></i> نسخ إحداثيات حي العليا (24.6975, 46.6845)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-container slide-in-right">
+                    <h2 class="section-title">اطلب معاينة مجانية</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="الاسم" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="رقم الجوال" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="العنوان" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>نوع الخدمة</option>
+                                <option value="تنسيق حدائق">تنسيق حدائق</option>
+                                <option value="تركيب عشب">تركيب عشب</option>
+                                <option value="شبكات ري">شبكات ري</option>
+                                <option value="مظلات وبرجولات">مظلات وبرجولات</option>
+                                <option value="شلالات ونوافير">شلالات ونوافير</option>
+                                <option value="أخرى">أخرى</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="تفاصيل الطلب" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">إرسال الطلب <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="contact-info slide-in-left">
+                    <h2 class="section-title">معلومات التواصل</h2>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <h4>واتساب</h4>
+                                <p dir="ltr"><a href="https://wa.me/966544629160" target="_blank">0544629160</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>الموقع الرئيسي</h4>
+                                <p>الرياض - حي العليا - المملكة العربية السعودية</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>البريد الإلكتروني</h4>
+                                <p><a href="mailto:info@naseemgarden.sa">info@naseemgarden.sa</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-mini-map mt-4 rounded p-4 text-center">
+                        <i class="fas fa-map-marked-alt fa-3x text-gold mb-3"></i>
+                        <h4 style="color: var(--dark-bg); margin-bottom: 8px;">موقع العمل ومناطق التغطية</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 15px;">يمكنك رؤية الموقع الدقيق والتفاعل مع الخريطة عبر زر موقعنا</p>
+                        <a href="#location" class="btn btn-primary btn-block"><i class="fas fa-location-arrow"></i> الانتقال إلى الخريطة التفاعلية</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf text-gold"></i> نسيم <span>الطبيعة</span>
+                    <p class="mt-2">لتنسيق الحدائق بالرياض</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">الرئيسية</a>
+                    <a href="#about">من نحن</a>
+                    <a href="#services">خدماتنا</a>
+                    <a href="#projects">أعمالنا</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>نسيم الطبيعة لتنسيق الحدائق &copy; 2026 | الرياض - المملكة العربية السعودية</p>
+                <a href="#home" class="scroll-top" title="العودة إلى الأعلى"><i class="fas fa-arrow-up"></i> العودة إلى الأعلى</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Review Modal -->
+    <div id="reviewModal" class="modal">
+        <div class="modal-content slide-in-up">
+            <span class="close-modal">&times;</span>
+            <h2 class="section-title text-center" style="font-size: 1.8rem;">أضف تقييمك</h2>
+            <p class="text-center mb-4">يسعدنا سماع رأيك في خدماتنا</p>
+            <form id="reviewForm" class="contact-form" style="box-shadow: none; padding: 20px 0 0;">
+                <div class="form-group">
+                    <input type="text" id="reviewName" placeholder="الاسم" required>
+                </div>
+                <div class="form-group text-center">
+                    <label style="display: block; margin-bottom: 10px; font-weight: bold;">التقييم:</label>
+                    <div class="rating-stars">
+                        <i class="fas fa-star rating-star" data-value="1"></i>
+                        <i class="fas fa-star rating-star" data-value="2"></i>
+                        <i class="fas fa-star rating-star" data-value="3"></i>
+                        <i class="fas fa-star rating-star" data-value="4"></i>
+                        <i class="fas fa-star rating-star" data-value="5"></i>
+                    </div>
+                    <input type="hidden" id="reviewRating" value="5" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="reviewComment" placeholder="التعليق" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">إرسال التقييم <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Leaflet JS for Interactive Map -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
